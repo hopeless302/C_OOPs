@@ -1,0 +1,13 @@
+#include <iostream>
+#include <set>
+
+int main()
+{
+  std::multiset<char> cms;
+  std::cout << "Size before insertions: " << cms.size() << std::endl;
+  cms.insert('a');
+  cms.insert('b');
+  cms.insert('c');
+  std::cout << "Size after insertions: " << cms.size() << std::endl;
+  return 0;
+}
